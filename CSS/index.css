@@ -1,0 +1,33 @@
+.site-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #36454f;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+.logo{
+    color: #fff;
+}
+.main-nav{
+    margin-left: auto;
+}
+.main-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav a{
+    color: #fff;
+    text-decoration: none;
+}
